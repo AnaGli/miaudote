@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.card {
+  width: 60%;
+  color: #a649c9;
+  background-color: #fccc02;
+  font-family: "Amatic SC", sans-serif;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.icone {
+  width: 80px;
+  height: 80px;
+}

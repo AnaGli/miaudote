@@ -1,0 +1,15 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{ pet.name }}</mat-card-title>
+    <mat-card-subtitle>{{ pet.age }}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    class="img"
+    mat-card-image
+    [src]="pet.photo"
+    alt="animalzinho para adoção"
+  />
+  <mat-card-content>
+    <p>Saiba mais! {{ pet.contact }}</p>
+  </mat-card-content>
+</mat-card>
